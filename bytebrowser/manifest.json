@@ -1,0 +1,32 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "Byte Browser 2.0",
+  "version": "0.4.0",
+  "author": "RandomDev(Codes by Sam Lanning)",
+
+  "description": "A New Browser for Chrome OS for completely unblocking all sites(Thanks to Sam Lanning for the Orignal codes on GitHub).",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "storage",
+    "webview",
+    "audioCapture",
+    "videoCapture",
+    "fullscreen",
+    "pointerLock",
+    "http://*/*",
+    "https://*/*"
+    ]
+}
